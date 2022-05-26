@@ -1,4 +1,4 @@
-# GetTORExitNodes.sh
+# Get TOR Exit Nodes
 A BASH script made to get current TOR exit nodes and save them into a file
 
 # Main purpouse
