@@ -17,15 +17,15 @@ You should do a hourly `crontab` to get a fresh and updated list of exit nodes.
 ## Getting the usage
 
 ```
-$ ./getexitnodes.sh -
+$ ./gten.sh -
 Usage:
-         ./getexitnodes.sh [filename]
+         ./gten.sh [filename]
 ```
 ## Example of usage saving the output to "file.txt"
 ```
-$ ./getexitnodes.sh file.txt
-[+] All nodes will be written on file.txt
-[i] Writing 1039 exit nodes on file.txt...
+$ ./gten.sh addresses.txt
+[+] All nodes will be written on addresses.txt
+[i] Writing 1039 exit nodes on addresses.txt...
 [+] Nodes written: 1039
 [i] Total entries: 2084
 
@@ -35,7 +35,7 @@ $ ./getexitnodes.sh file.txt
 ```
 ## Example of standard usage
 ```
-$ ./getexitnodes.sh
+$ ./gten.sh
 [!] Filename not specified. All nodes will be written on tornodes.txt
 [i] Writing 1045 exit nodes on ./tornodes.txt...
 [+] Nodes written: 1045
