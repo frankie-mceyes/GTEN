@@ -8,7 +8,7 @@ then
 	exit
 elif [[ "$1" == '-' ]]
 then
-	echo -e "Usage:\n\t ./getexitnodes.sh [filename]"
+	echo -e "Usage:\n\t ./gten.sh [filename]"
 	exit
 elif [ -z "$1" ]
 then
